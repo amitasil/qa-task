@@ -61,3 +61,17 @@ REST endpoints that are used in the UI have been implemented.
 Clone the repo and make the changes. Push the changes to your github and share the link to the repository with us. Make sure the the repository is publicly accessible.
 
 Note: Please do not fork the repository or submit a pull request to this project.
+
+## Corrections:
+# "return x;" instead of "return n;" in FactorialCalculator.cs to correct the factorial value.
+
+# corrected the spelling of pageId (fibinacci) in PageContentProvider.cs to correct the error coming on the Fibonacci page while page load
+
+##Tests
+# Used CodeceptJS to write the tests
+
+#To run all the tests, use commend:
+`npx codeceptjs run --steps`
+
+#To run specific test (for e.g. Factorial), use command: 
+'npx codeceptjs run --grep "Factorial"'

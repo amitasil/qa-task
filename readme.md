@@ -70,6 +70,8 @@ Corrected the spelling of pageId (fibinacci) in PageContentProvider.cs to correc
 # Tests
 ## Used CodeceptJS to write the tests
 
+### navigate to "..\qa-task\ui\tests"
+
 ### To run all the tests, use command:
 `npx codeceptjs run --steps`
 

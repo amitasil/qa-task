@@ -70,8 +70,8 @@ Note: Please do not fork the repository or submit a pull request to this project
 ##Tests
 # Used CodeceptJS to write the tests
 
-#To run all the tests, use commend:
+#To run all the tests, use command:
 `npx codeceptjs run --steps`
 
 #To run specific test (for e.g. Factorial), use command: 
-'npx codeceptjs run --grep "Factorial"'
+`npx codeceptjs run --grep "Factorial"`
